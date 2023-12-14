@@ -1,13 +1,24 @@
 {
-  "name": "slashable",
+  "name": "slashable-monorepo",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@nx/esbuild": "^17.2.3",
+    "@nx/eslint": "^17.2.3",
+    "@nx/eslint-plugin": "^17.2.3",
     "@nx/js": "17.2.3",
-    "nx": "17.2.3"
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "esbuild": "^0.19.9",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "nx": "17.2.3",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "verdaccio": "^5.29.0"
   },
   "workspaces": [
     "packages/*"
